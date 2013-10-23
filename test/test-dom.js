@@ -298,6 +298,15 @@ describe('highlight()', function() {
   })
 })
 
+describe('unhighlight()', function() {
+  it('should unhighlight node', function(done) {
+    node.unhighlight(function(err, resp) {
+      assert.strictEqual(err, null);
+      done();
+    })
+  })
+})
+
 /* MUST BE LAST */
 describe('remove()', function() {
   it('should remove node', function(done) {
