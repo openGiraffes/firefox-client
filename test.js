@@ -32,7 +32,6 @@ loadUrl(url, function(tab) {
     sheets[1].getMediaRules(function(err, rules) {
       console.log("media rules: ", rules.length);
       console.log("first one: ", rules[0]);
->>>>>>> add PageStyle beginnings
     });
   })
 }) */
@@ -49,6 +48,7 @@ loadUrl(url, function(tab) {
     localName: '',
     format: '',
     metadata: '' }
+
 
   tab.DOM.querySelector("#title", function(err, node) {
     console.log("got node:", node.tagName);
