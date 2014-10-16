@@ -18,6 +18,38 @@ getFirstTab(function(tab) {
 
 /*
 loadUrl(url, function(tab) {
+
+  tab.DOM.querySelector("#title", function(err, node) {
+    console.log("got node:", node.tagName);
+    tab.DOM.getUsedFontFaces(node, function(err, fonts) {
+      for (var i in fonts) {
+        var font = fonts[i];
+        console.log("first font", font);
+      }
+
+
+  tab.StyleSheets.getStyleSheets(function(err, sheets) {
+    sheets[1].getMediaRules(function(err, rules) {
+      console.log("media rules: ", rules.length);
+      console.log("first one: ", rules[0]);
+>>>>>>> add PageStyle beginnings
+    });
+  })
+}) */
+
+/**
+{ fromFontGroup: true,
+    fromLanguagePrefs: false,
+    fromSystemFallback: false,
+    name: 'Georgia',
+    CSSFamilyName: 'Georgia',
+    rule: null,
+    srcIndex: -1,
+    URI: '',
+    localName: '',
+    format: '',
+    metadata: '' }
+
   tab.DOM.querySelector("#title", function(err, node) {
     console.log("got node:", node.tagName);
     tab.DOM.getUsedFontFaces(node, function(err, fonts) {
@@ -42,7 +74,6 @@ loadUrl(url, function(tab) {
     format: '',
     metadata: '' }
 */
-
 
 /**
  * Helper functions
