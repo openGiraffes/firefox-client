@@ -1,12 +1,12 @@
 {
   "name": "firefox-client",
   "description": "Firefox remote debugging client",
-  "version": "0.3.0",
-  "author": "Heather Arthur <fayearthur@gmail.com>",
+  "version": "0.4.0",
+  "author": "openGiraffes Group",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/harthur/firefox-client.git"
+    "url": "http://github.com/openGiraffes/firefox-client.git"
   },
   "dependencies": {
     "colors": "0.5.x",
