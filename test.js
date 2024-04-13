@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    FirefoxClient = require("./index");
+    FirefoxClient = require("./index").default;
 
 
 var url = "http://harthur.github.io/bugzilla-todos";

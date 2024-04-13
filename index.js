@@ -1,1 +1,1 @@
-module.exports = require("./lib/browser");
+export { default } from "./lib/browser";
